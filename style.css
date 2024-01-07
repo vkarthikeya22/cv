@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #resume-container {
+    width: 21cm;
+    height: 29.7cm;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd; /* Fading border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Fading shadow */
+  }
+  
+  header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #profile-pic-container {
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  #profile-pic-container img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #fff;
+    border-radius: 50%; /* Make the image circular */
+
+  }
+  
+  section {
+    margin: 20px;
+  }
+  
+  h2 {
+    color: #3498db;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #ecf0f1;
+    padding: 10px;
+  }
+
+  #projects {
+    margin: 20px;
+  }
+  
+  #projects ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #projects h2 {
+    color: #3498db;
+  }
+  /* Add this to your existing CSS */
+
+#synopsis {
+    margin: 20px;
+  }
+  
+  #synopsis p {
+    text-align: justify;
+  }
+  
